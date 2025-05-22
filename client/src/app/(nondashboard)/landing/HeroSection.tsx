@@ -22,7 +22,7 @@ const HeroSection = () => {
           transition={{duration: 0.8}}
           className='absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
         >
-          <div className="max-w-4xl mx-auto px-16 sm:px-12">
+          <div className="max-w-4xl mx-auto px-16 sm:px-12 min-w-lg">
             <h1 className="text-white text-5xl font-bold mb-4">
               Start your journey to finding your dream home
             </h1>
@@ -31,7 +31,7 @@ const HeroSection = () => {
             </p>
             <div className='flex justify-center'>
              <Input type='text' placeholder='Search for properties' className='w-full max-w-lg rounded-none rounded-l-xl border-none bg-white h-12' onChange={() => {}}/>
-             <Button className='rounded-none rounded-r-xl h-12 bg-red-400 cursor-pointer'>Search</Button>
+             <Button className='rounded-none rounded-r-xl h-12  bg-orange-600 cursor-pointer hover:bg-orange-700'>Search</Button>
             </div>
           </div>
         </motion.div>
